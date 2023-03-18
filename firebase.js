@@ -28,11 +28,12 @@ import { initializeApp } from "firebase/app";
 // Your web app's Firebase configuration
 const firebaseConfig = {
   apiKey: REACT_APP_API_KEY,
+  appId: REACT_APP_APP_ID,
   authDomain: REACT_APP_AUTH_DOMAIN,
+  messagingSenderId: REACT_APP_MESSAGING_SENDER_ID,
   projectId: REACT_APP_PROJECT_ID,
   storageBucket: REACT_APP_STORAGE_BUCKET,
-  messagingSenderId: REACT_APP_MESSAGING_SENDER_ID,
-  appId: REACT_APP_APP_ID,
+  
 };
 
 // Initialize Firebase
