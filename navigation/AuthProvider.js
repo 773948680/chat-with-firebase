@@ -18,8 +18,8 @@ export const AuthProvider = ({ children }) => {
       setUser(currentuser);
     });
 
-    return unsubscribe();
-  }, []);
+    return unsubscribe;
+  }, [user]);
   return (
     <AuthContext.Provider
       value={{
